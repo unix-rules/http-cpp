@@ -1,0 +1,220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		755FD029157A10AE00ED9DB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 755FD028157A10AE00ED9DB0 /* main.cpp */; };
+		755FD02B157A10AE00ED9DB0 /* http.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 755FD02A157A10AE00ED9DB0 /* http.1 */; };
+		755FD033157A10DE00ED9DB0 /* HttpHeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 755FD032157A10DE00ED9DB0 /* HttpHeader.cpp */; };
+		755FD036157A111500ED9DB0 /* Http.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 755FD035157A111500ED9DB0 /* Http.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		755FD022157A10AE00ED9DB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				755FD02B157A10AE00ED9DB0 /* http.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		755FD024157A10AE00ED9DB0 /* http */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = http; sourceTree = BUILT_PRODUCTS_DIR; };
+		755FD028157A10AE00ED9DB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		755FD02A157A10AE00ED9DB0 /* http.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = http.1; sourceTree = "<group>"; };
+		755FD031157A10D500ED9DB0 /* HttpHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpHeader.h; sourceTree = "<group>"; };
+		755FD032157A10DE00ED9DB0 /* HttpHeader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HttpHeader.cpp; sourceTree = "<group>"; };
+		755FD034157A10FE00ED9DB0 /* Http.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Http.h; sourceTree = "<group>"; };
+		755FD035157A111500ED9DB0 /* Http.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Http.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		755FD021157A10AE00ED9DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		755FD019157A10AD00ED9DB0 = {
+			isa = PBXGroup;
+			children = (
+				755FD027157A10AE00ED9DB0 /* http */,
+				755FD025157A10AE00ED9DB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		755FD025157A10AE00ED9DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				755FD024157A10AE00ED9DB0 /* http */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		755FD027157A10AE00ED9DB0 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				755FD028157A10AE00ED9DB0 /* main.cpp */,
+				755FD02A157A10AE00ED9DB0 /* http.1 */,
+				755FD031157A10D500ED9DB0 /* HttpHeader.h */,
+				755FD032157A10DE00ED9DB0 /* HttpHeader.cpp */,
+				755FD034157A10FE00ED9DB0 /* Http.h */,
+				755FD035157A111500ED9DB0 /* Http.cpp */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		755FD023157A10AE00ED9DB0 /* http */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755FD02E157A10AE00ED9DB0 /* Build configuration list for PBXNativeTarget "http" */;
+			buildPhases = (
+				755FD020157A10AE00ED9DB0 /* Sources */,
+				755FD021157A10AE00ED9DB0 /* Frameworks */,
+				755FD022157A10AE00ED9DB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = http;
+			productName = http;
+			productReference = 755FD024157A10AE00ED9DB0 /* http */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		755FD01B157A10AE00ED9DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 755FD01E157A10AE00ED9DB0 /* Build configuration list for PBXProject "http" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 755FD019157A10AD00ED9DB0;
+			productRefGroup = 755FD025157A10AE00ED9DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				755FD023157A10AE00ED9DB0 /* http */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		755FD020157A10AE00ED9DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755FD029157A10AE00ED9DB0 /* main.cpp in Sources */,
+				755FD033157A10DE00ED9DB0 /* HttpHeader.cpp in Sources */,
+				755FD036157A111500ED9DB0 /* Http.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		755FD02C157A10AE00ED9DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		755FD02D157A10AE00ED9DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		755FD02F157A10AE00ED9DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		755FD030157A10AE00ED9DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		755FD01E157A10AE00ED9DB0 /* Build configuration list for PBXProject "http" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755FD02C157A10AE00ED9DB0 /* Debug */,
+				755FD02D157A10AE00ED9DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755FD02E157A10AE00ED9DB0 /* Build configuration list for PBXNativeTarget "http" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755FD02F157A10AE00ED9DB0 /* Debug */,
+				755FD030157A10AE00ED9DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 755FD01B157A10AE00ED9DB0 /* Project object */;
+}
